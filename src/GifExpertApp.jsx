@@ -1,7 +1,7 @@
-const key = import.meta.env.VITE_API_KEY;
-
 export default function GifExpertApp() {
-  return <div>GifExpertApp</div>;
+  return (
+    <>
+      <h1>GifExpertApp</h1>
+    </>
+  );
 }
-
-console.log(key);
